@@ -50,7 +50,6 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid red;
 }
 .section {
     padding-top: 120px;
@@ -286,7 +285,84 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-/*--------------Footer-----------*/
+/*---------Filter------------*/
+.filter {}
+
+.filter-list {
+    display: flex;
+    margin-top: 96px;
+    margin-bottom: 72px;
+    justify-content: center;
+    gap: 24px;
+}
+.filter-btn {
+    height: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #F4F4FD;
+    color: #4d5ae5;
+    cursor: pointer;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    padding: 12px 24px;
+}
+.filter-btn:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.filter-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+/*----------Works------------*/
+
+.works {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+.works-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+.works-container {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid#e7e9fc;
+}
+.information-container {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding-left: 16px;
+}
+
+.works-top-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+
+.works-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*-------------Footer----------*/
 .footer {
     background: #2E2F42;
     padding-top: 100px;
@@ -327,73 +403,3 @@ body {
     color: #F4F4FD;
     width: 264px;
 }
-
-.works {}
-
-.works-title {}
-
-.filter-list {}
-
-.list {}
-
-.filter-item {}
-
-.filter-btn {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    background-color: #F4F4FD;
-    color: #4d5ae5;
-    cursor: pointer
-}
-
-.filter-btn:hover {
-    color: #FFFFFF;
-    background-color: #404BBF;
-}
-
-.filter-btn:focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
-}
-
-.works-list {}
-
-.banking-app-link {}
-
-.link {}
-
-.works-top-text {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-
-.works-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.cashless-payment-link {}
-
-.meditation-app-link {}
-
-.taxi-service-link {}
-
-.screen-illustrations-link {}
-
-.online-courses-link {}
-
-.instagram-stories-link {}
-
-.organic-food-link {}
-
-.fresh-coffee-link {}
